@@ -1,0 +1,75 @@
+/*
+  Custom styles for Trackster App
+*/
+
+html {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: Righteous, serif;
+  color: white;
+}
+
+/* Header */
+
+header {
+  background-color: rgb(35, 2, 63);
+  padding: 2rem 0;
+}
+
+header .button {
+  padding: 0.25rem 1rem;
+  background-color: rgb(255, 0, 171);
+  border-radius: 1rem;
+  text-align: center;
+}
+
+header input {
+  border-radius: 1rem;
+  width: 100%;
+  padding: 0.25rem 1rem;
+}
+
+#button {
+  transition: 0.5s;
+}
+
+#button:hover {
+  opacity: 0.5;
+}
+
+#button:after {
+  opacity: 0.2s;
+}
+/* Nav */
+
+nav {
+  background-color: blue;
+  height: 3rem;
+}
+
+nav span {
+  color: white;
+}
+/* Main */
+
+.list {
+  height: 9rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.image-container {
+  width: 5rem;
+  height: 5rem;
+  padding: 1rem 0 1rem 0;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Footer */
