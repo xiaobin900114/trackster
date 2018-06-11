@@ -12,6 +12,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
   <script type="text/javascript" src="./resources/js/trackster.js"></script>
   <script type="text/javascript" src="./resources/js/tests.js"></script>
 </head>
@@ -22,8 +23,8 @@
       <div class="col-6 offset-1">
         <h1>trackster</h1>
       </div>
-      <input id="input" class="col-3" type="text" name="" value="" placeholder="search">
-      <i id="button" class="fas fa-search col-1 button"></i>
+      <input id="input" class="col-3 form-control rounded border-0" type="text" name="" value="" placeholder="What are you looking for?" id="input">
+      <button type="button" class="form-control btn col-1 rounded" name="button" id="button"><i class="fas fa-search text-white"></i></button>
     </div>
   </header>
 
@@ -38,7 +39,6 @@
   </main>
 
   <footer></footer>
-
 
 </body>
 </html>
